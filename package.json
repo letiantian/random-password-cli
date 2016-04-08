@@ -1,0 +1,35 @@
+{
+  "name": "random-password-cli",
+  "version": "0.1.1",
+  "description": "Generate random password in cli.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "cli.js",
+    "README.md"
+  ],
+  "bin": {
+    "random-password": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/someus/random-password-cli.git"
+  },
+  "keywords": [
+    "random",
+    "password",
+    "command"
+  ],
+  "author": "Letian (http://www.letiantian.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/someus/random-password-cli/issues"
+  },
+  "homepage": "https://github.com/someus/random-password-cli#readme",
+  "dependencies": {
+    "lodash": "^4.8.2",
+    "minimist": "^1.2.0",
+    "random-password": "^0.1.2"
+  }
+}

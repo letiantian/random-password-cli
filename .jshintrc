@@ -1,0 +1,5 @@
+{
+    "node":true,
+    "eqeqeq": true,
+    "undef": true
+}
